@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -396,4 +397,404 @@
         <button class="chat-bot-button">💬 Chat</button>
     </div>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoppie</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <!-- 1. Sticky Navbar -->
+    <nav class="navbar">
+        <div class="logo">Shoppie</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- 2. Banner Section -->
+    <section class="banner">
+        <div class="banner-content">
+            <h1>Summer Super Sale!</h1>
+            <p>Up to 50% off on selected items</p>
+            <button class="btn">Shop Now</button>
+        </div>
+    </section>
+
+    <!-- 3. Best Products Section -->
+    <section id="products" class="products-section">
+        <h2 class="section-title">Best Products</h2>
+        <div class="products-grid">
+            <!-- Product 1 - Best Seller -->
+            <div class="product-card">
+                <span class="badge bestseller">Best Seller</span>
+                <img src="https://imgs.search.brave.com/2ORuqE1P_ewzhGYzBUbcB76-AaSSTBUp0sjjqjt8T5c/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kMW5j/YXU4dHFmOTlrcC5j/bG91ZGZyb250Lm5l/dC9jb252ZXJ0ZWQv/NzQ3Mzlfb3JpZ2lu/YWxfbG9jYWxfMTIw/MHgxMDUwX3YzX2Nv/bnZlcnRlZC53ZWJw" alt="Product 1">
+                <div class="product-info">
+                    <h3>Premium Headphones</h3>
+                    <div class="price-container">
+                        <span class="price">₹899.99</span>
+                        <span class="old-price">₹999.99</span>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(4.5)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 2 - Discount -->
+            <div class="product-card">
+                <span class="badge discount">10% OFF</span>
+                <img src="https://imgs.search.brave.com/hHRMsxlNKM6bAc22M9_6sezc7EXzne-Nr8wzpSs3pzM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFpaVotZ0RZRUwu/anBn" alt="Product 2">
+                <div class="product-info">
+                    <h3>Wireless Mouse</h3>
+                    <div class="price-container">
+                        <span class="price">₹249.99</span>
+                        <span class="old-price">₹299.99</span>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(4.0)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <img src="https://imgs.search.brave.com/7_jA8RKvxDLhTG8ll4ZNwoGBxezShpBp203ZhsH3CTs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL1Mv/YXBsdXMtbWVkaWEt/bGlicmFyeS1zZXJ2/aWNlLW1lZGlhL2Nl/YTlhNTg1LWUwMjct/NGIwNS1hODFlLTQ2/YTgxYzIxZDIyMS5f/X0NSMCwwLDE0NjQs/NjAwX1BUMF9TWDE0/NjRfVjFfX18uanBn" alt="Product 3">
+                <div class="product-info">
+                    <h3>Bluetooth Speaker</h3>
+                    <div class="price-container">
+                        <span class="price">₹499.99</span>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(5.0)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 4 - Best Seller & Discount -->
+            <div class="product-card">
+                <span class="badge bestseller">Best Seller</span>
+                <span class="badge discount second-badge">10% OFF</span>
+                <img src="https://imgs.search.brave.com/LzV5gE1Co_ynRLDKbBdk7bdY5dk-0N_vinWFpsA4FJM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzEwLzc1LzUxLzY2/LzM2MF9GXzEwNzU1/MTY2MTFfeFY1TVBJ/RmdubUtqQ29SelRI/RUdzYzl5VDFEa3pp/V0wuanBn" alt="Product 4">
+                <div class="product-info">
+                    <h3>Smart Watch</h3>
+                    <div class="price-container">
+                        <span class="price">₹1299.99</span>
+                        <span class="old-price">₹1499.99</span>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(4.7)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card">
+                <img src="https://imgs.search.brave.com/VYjXtsyaEBxEQpZ6j7LkNoOeS1wUlW7Mx0wxkeDvwNY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvOTY3/MDY0MDUvcGhvdG8v/YmFja3BhY2std2l0/aC1hLWxhcHRvcC1p/bnNpZGUtaXNvbGF0/ZWQuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPXo2MmhaTExi/Nm91T2tYUy1OSmVQ/V0NhNS01Qkwydm1B/aVd2ajI1TnFleGM9" alt="Product 5">
+                <div class="product-info">
+                    <h3>Laptop Backpack</h3>
+                    <div class="price-container">
+                        <span class="price">₹399.99</span>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                        <span>(3.5)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 6 - Discount -->
+            <div class="product-card">
+                <span class="badge discount">10% OFF</span>
+                <img src="https://imgs.search.brave.com/0ME-Z_KG6z4NBeSLIHSnuzu6tbadnjKNATU_8IuVCcM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTE3/ODE1MjE1Ny9waG90/by9jbG9zZS11cC1v/Zi13b21hbi1pcy1o/b2xkaW5nLXRoZS1i/bGFjay10cnVlLXdp/cmVsZXNzLWVhcmJ1/ZHMtY2FzZS1pbi1o/YW5kLmpwZz9iPTEm/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9V25S/RkZNRVQ0NkV1UFky/bDIwVXVuN3ZweDg1/YzlWVzhPaFA4NWU3/N1ZhYz0" alt="Product 6">
+                <div class="product-info">
+                    <h3>Wireless Earbuds</h3>
+                    <div class="price-container">
+                        <span class="price">₹599.99</span>
+                        <span class="old-price">₹699.99</span>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(4.2)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 7 -->
+            <div class="product-card">
+                <img src="https://imgs.search.brave.com/4P9XM4XfXtobF1EW6Dt7vCwGUWWb2s8AvqoKWJt0Ero/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dHJhdmVsYW5kbGVp/c3VyZS5jb20vdGht/Yi8wai1YY3FjMEIy/d2lhbXR6Z3JRb2dB/bGY2bmM9L2ZpdC1p/bi8xNTAweDEwMDAv/ZmlsdGVyczpub191/cHNjYWxlKCk6bWF4/X2J5dGVzKDE1MDAw/MCk6c3RyaXBfaWNj/KCkvX215Q2hhcmdl/LVBvcnRhYmxlLUNo/YXJnZXItd2l0aC1X/YWxsLVBsdWctZWFl/NzYyMTRkOTMwNGE4/NDkzYzJkMmMyMGM1/NDk2NmUuanBn" alt="Product 7">
+                <div class="product-info">
+                    <h3>Portable Charger</h3>
+                    <div class="price-container">
+                        <span class="price">₹299.99</span>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(4.0)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 8 - Best Seller -->
+            <div class="product-card">
+                <span class="badge bestseller">Best Seller</span>
+                <img src="https://imgs.search.brave.com/IGsAD3i12ZTBYyfQem_nld_4LxUEg1lhhVRur5GxKtI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTMz/MjE3OTUxOS9waG90/by93b21hbi1jaGVj/a2luZy10aW1lLW9u/LXNtYXJ0LXdhdGNo/LXdoaWxlLXN0YW5k/aW5nLW9uLWZvb3Rw/YXRoLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz05Yi1XZEhJ/cTBLMWQ0aHFxXzhB/NFctaWNLSjRpTzhS/b0c4LTlsVkRMQXNN/PQ" alt="Product 8">
+                <div class="product-info">
+                    <h3>Fitness Tracker</h3>
+                    <div class="price-container">
+                        <span class="price">₹799.99</span>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(4.9)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 9 -->
+            <div class="product-card">
+                <img src="https://imgs.search.brave.com/MdtneEAVSrQjj7hOuWc80IlOVK4XnimzQpS68OlGEHE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bGVwb3dlci10ZWMu/Y29tL2Nkbi9zaG9w/L2ZpbGVzL0xlcG93/ZXItdGVjLWNsaXAt/b24tZGVzay1sYW1w/X2MwYTM4NGE2LWRj/ZTgtNDlmZC04ZGI3/LWZhYTIxOTNlMTIx/MC5qcGc_dj0xNzM5/NzgzMzQwJndpZHRo/PTUwMA" alt="Product 9">
+                <div class="product-info">
+                    <h3>Desk Lamp</h3>
+                    <div class="price-container">
+                        <span class="price">₹199.99</span>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                        <span>(3.7)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 10 - Discount -->
+            <div class="product-card">
+                <span class="badge discount">10% OFF</span>
+                <img src="https://imgs.search.brave.com/zHgrCJ49EgeG27mEPhxIufUj7OQE9Z0m506b6TRcyi0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Z3JhdmFzdGFyLmNv/bS9jZG4vc2hvcC9m/aWxlcy83NS1tZWNo/YW5pY2FsLWtleWJv/YXJkLWdhbWluZy13/aXJlbGVzcy1wYy5q/cGc_dj0xNzM1MTk0/NjUxJndpZHRoPTEy/MDA" alt="Product 10">
+                <div class="product-info">
+                    <h3>Mechanical Keyboard</h3>
+                    <div class="price-container">
+                        <span class="price">₹899.99</span>
+                        <span class="old-price">₹999.99</span>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(4.1)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 11 -->
+            <div class="product-card">
+                <img src="https://imgs.search.brave.com/BBp1ssGRrpzEYAeafcgE9m6ES4KYyjlYiRrlxSEClqU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9waXNj/ZXMuYmJ5c3RhdGlj/LmNvbS9pbWFnZTIv/QmVzdEJ1eV9VUy9p/bWFnZXMvcHJvZHVj/dHMvNjUyMS82NTIx/NzQyX3NkLmpwZztt/YXhIZWlnaHQ9MTIw/O21heFdpZHRoPTM4/MDtmb3JtYXQ9d2Vi/cA" alt="Product 11">
+                <div class="product-info">
+                    <h3>USB-C Hub</h3>
+                    <div class="price-container">
+                        <span class="price">₹349.99</span>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(4.0)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 12 - Best Seller -->
+            <div class="product-card">
+                <span class="badge bestseller">Best Seller</span>
+                <img src="https://imgs.search.brave.com/4W5i9iNT9GId-4jg0hqFcLnBfFDgRxAk43I4_iPw2-s/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/dGhld2lyZWN1dHRl/ci5jb20vd3AtY29u/dGVudC9tZWRpYS8y/MDI0LzA0L3Fpd2ly/ZWxlc3NjaGFyZ2Vy/cy0yMDQ4cHgtMTkw/OS5qcGc_YXV0bz13/ZWJwJnF1YWxpdHk9/NzUmd2lkdGg9MTAy/NA" alt="Product 12">
+                <div class="product-info">
+                    <h3>Wireless Charger</h3>
+                    <div class="price-container">
+                        <span class="price">₹249.99</span>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(4.6)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 13 -->
+            <div class="product-card">
+                <img src="https://imgs.search.brave.com/Fy5vIxhqMlEvUENsY7vRy8pgC4sp-0Vy73xkTCgTPc0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjF6dlZyc1BUcEwu/anBn" alt="Product 13">
+                <div class="product-info">
+                    <h3>Bluetooth Headset</h3>
+                    <div class="price-container">
+                        <span class="price">₹449.99</span>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(4.2)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 14 - Discount -->
+            <div class="product-card">
+                <span class="badge discount">10% OFF</span>
+                <img src="https://imgs.search.brave.com/WOPer9S9xTmZyeSm_66sq0HnB2chfrnLy_T4JlNx05g/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9iMmMt/Y29udGVudGh1Yi5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjMvMDgvQ3J1Y2lh/bF94OS1Qcm9fRFND/ODQ5MS5qcGc_cXVh/bGl0eT01MCZzdHJp/cD1hbGw" alt="Product 14">
+                <div class="product-info">
+                    <h3>External SSD</h3>
+                    <div class="price-container">
+                        <span class="price">₹799.99</span>
+                        <span class="old-price">₹899.99</span>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(4.8)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 15 -->
+            <div class="product-card">
+                <img src="https://imgs.search.brave.com/5FFC_L4D2r2t05VIvRHHiS5o76Qq3WKB2lXXxCWyReM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jMS5u/ZXdlZ2dpbWFnZXMu/Y29tL3Byb2R1Y3Rp/bWFnZS9uYjMwMC9C/UDRZUzI0MDkwNzBL/MkZBRUYyLmpwZw" alt="Product 15">
+                <div class="product-info">
+                    <h3>Webcam HD</h3>
+                    <div class="price-container">
+                        <span class="price">₹499.99</span>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(4.3)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Testimonials Section -->
+    <section id="about" class="testimonials-section">
+        <h2 class="section-title">What Our Customers Say</h2>
+        <div class="testimonials-container">
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p>The products are amazing! Fast delivery and excellent customer service. I'm definitely coming back for more shopping.</p>
+                    <div class="testimonial-author">
+                        <img src="https://via.placeholder.com/50" alt="Customer 1" class="author-img">
+                        <div class="author-info">
+                            <h4>Gunu</h4>
+                            <p>Loyal Customer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p>I've been shopping here for years and have never been disappointed. The quality is consistent and the prices are reasonable.</p>
+                    <div class="testimonial-author">
+                        <img src="https://via.placeholder.com/50" alt="Customer 2" class="author-img">
+                        <div class="author-info">
+                            <h4>Sonu</h4>
+                            <p>Tech Enthusiast</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p>The summer sale was incredible! I got all my favorite gadgets at amazing discounts. The website is also very easy to navigate.</p>
+                    <div class="testimonial-author">
+                        <img src="https://via.placeholder.com/50" alt="Customer 3" class="author-img">
+                        <div class="author-info">
+                            <h4>Munu</h4>
+                            <p>New Customer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Footer -->
+    <footer id="contact" class="footer">
+     
+        <div class="footer-bottom">
+            <p>&copy; 2025 Shoppie. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- 6. Fixed Chat Bot Icon -->
+    <div class="chat-bot">
+        <button class="chat-bot-button">💬 Chat</button>
+    </div>
+</body>
+>>>>>>> 30642c23b1512a76c8695099a83e7cc97e0f7fc9
 </html>
